@@ -1,0 +1,15 @@
+{
+  "name": "js-function-cache",
+  "version": "1.0.0",
+  "description": "cache your javascript functions to improve performance",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/therealrinku/js-function-cache"
+  },
+  "author": "Rinku Chaudhari",
+  "license": "ISC"
+}
