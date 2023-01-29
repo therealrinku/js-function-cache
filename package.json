@@ -1,6 +1,6 @@
 {
   "name": "js-function-cache",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "cache your javascript functions to improve performance",
   "main": "index.ts",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/therealrinku/js-function-cache"
+    "url": "https://github.com/therealrinku/js-function-cache"
   },
   "author": "Rinku Chaudhari",
   "license": "ISC",
