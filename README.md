@@ -24,7 +24,7 @@ cachedFunction(); // returns cached result
 ## Contributing
 
 Pull requests are welcomed with open heart here
-https://github.com/therealrinku/function-cache
+https://github.com/therealrinku/js-function-cache
 
 ## License
 
