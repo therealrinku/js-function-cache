@@ -11,7 +11,7 @@ function expensiveFunction(a, b) {
   return a + b;
 }
 
-const cachedFunction = cache("id", () => expensiveFunction(2, 4));
+const cachedFunction = () => cache("id", () => expensiveFunction(2, 4));
 
 cachedFunction(); // executes the function and caches the result
 cachedFunction(); // returns cached result
