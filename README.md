@@ -18,7 +18,7 @@ function expensiveFunction(a, b) {
 const cachedFunction = cache("id", () => expensiveFunction(2, 4));
 
 cachedFunction(); // executes the function and caches the result
-cachedFunction(); // returns cached result, without executing the function again
+cachedFunction(); // returns cached result
 ```
 
 ## Contributing

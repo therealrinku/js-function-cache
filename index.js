@@ -3,21 +3,22 @@
  * @description Cache your functions
  */
 
-import type { CacheModel } from "./types";
-
-const cache: CacheModel = {};
-
 /**
  * cache functions to improve your site functionality
  * @param key unique string value to remember cache
  * @param func function to be cached
  */
-export default function funCache(key: string, func: Function) {
+
+let cache = {};
+
+export default function funCache(key, func, debug=true) {
   //return cache if availabe
   if (cache[key]) return cache[key];
 
+  if(debug) console.log(`---${key} not cached. calculating and caching---`);
   //store data in cache
-  if (cache[key]) cache[key] = func;
+  const res = func();
+  cache[key] = res;
 
-  return func;
+  return res;
 }

@@ -11,5 +11,6 @@
     "url": "github.com/therealrinku/js-function-cache"
   },
   "author": "Rinku Chaudhari",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
