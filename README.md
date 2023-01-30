@@ -5,7 +5,7 @@ https://github.com/therealrinku/js-function-cache
 ## Usage
 
 ```javascript
-import cache from "cache";
+import cache from "js-function-cache";
 
 function expensiveFunction(a, b) {
   return a + b;
