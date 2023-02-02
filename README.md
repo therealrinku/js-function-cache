@@ -1,17 +1,18 @@
 # Function-Cache
 
-A simple npm package for caching the results of function calls, reducing the number of times the function needs to be executed.
+A simple but powerful (i guess) npm package for caching the results of function calls, reducing the number of times the function needs to be executed.
 https://github.com/therealrinku/js-function-cache
+
 ## Usage
 
 ```javascript
-import cache from "js-function-cache";
+import jsFunctionCache from "js-function-cache";
 
 function expensiveFunction(a, b) {
   return a + b;
 }
 
-const cachedFunction = () => cache("id", () => expensiveFunction(2, 4));
+const cachedFunction = () => jsFunctionCache("id", () => expensiveFunction(2, 4));
 
 cachedFunction(); // executes the function and caches the result
 cachedFunction(); // returns cached result
