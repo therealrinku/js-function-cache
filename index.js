@@ -10,9 +10,9 @@
  * @param debug debug mode, shows logs output in console(true or false)
  */
 
-let cache: { [key: string]: any } = {};
+let cache = {};
 
-export default function jsFunctionCache(key: string, func: Function, debug: boolean = true) {
+export default function jsFunctionCache(key, func, debug = true) {
   //return cache if availabe
   if (cache[key]) {
     if (debug) console.log(`---${key} is cached. returning the cached data---`);
