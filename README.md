@@ -1,4 +1,4 @@
-# Function-Cache
+# JS Function Cache
 
 A simple but powerful (i guess) npm package for caching the results of function calls, reducing the number of times the function needs to be executed.
 https://github.com/therealrinku/js-function-cache
