@@ -1,6 +1,6 @@
 {
   "name": "js-function-cache",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "cache your javascript functions to improve performance",
   "main": "index.ts",
   "scripts": {
@@ -12,12 +12,5 @@
   },
   "author": "Rinku Chaudhari",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "typescript": "^4.9.5"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.18",
-    "ts-node": "^10.9.1"
-  }
+  "type": "module"
 }
