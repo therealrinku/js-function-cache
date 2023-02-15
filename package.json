@@ -1,6 +1,6 @@
 {
   "name": "js-function-cache",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "cache your javascript functions to improve performance",
   "main": "index.ts",
   "scripts": {

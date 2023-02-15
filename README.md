@@ -12,7 +12,9 @@ function expensiveFunction(a, b) {
   return a + b;
 }
 
-const cachedFunction = () => jsFunctionCache("id", () => expensiveFunction(2, 4));
+//keyName must be unique
+const keyName = "jptKey"
+const cachedFunction = () => jsFunctionCache(keyName, () => expensiveFunction(2, 4));
 
 cachedFunction(); // executes the function and caches the result
 cachedFunction(); // returns cached result
