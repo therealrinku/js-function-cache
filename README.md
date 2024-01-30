@@ -1,4 +1,4 @@
-# Javacript function cachee
+# Javacript function cache
 
 A simple but powerful npm package for caching the results of function calls, reducing the number of times the function needs to be executed.
 https://github.com/therealrinku/js-function-cache
